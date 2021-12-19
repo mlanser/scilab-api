@@ -45,9 +45,6 @@ generate_dot_env:
 		cp .env.example .env; \
 	fi
 
-easter:
-	./egg.sh
-
 clean:
 	@find . -name '*.pyc' -exec rm -rf {} \;
 	@find . -name '__pycache__' -exec rm -rf {} \;

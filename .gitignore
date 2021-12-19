@@ -1,0 +1,31 @@
+# -------------------------------------
+# Default
+# -------------------------------------
+__pycache__/
+.mypy_cache/
+/.coverage
+/.coverage.*
+/.nox/
+/.python-version
+/.pytype/
+/dist/
+/docs/_build/
+/src/*.egg-info/
+.venv
+
+# -------------------------------------
+# IDE settings
+# -------------------------------------
+.vscode/
+.idea/
+
+# -------------------------------------
+# Misc Stuff
+# -------------------------------------
+.DS_Store
+*.tmp
+*.temp
+OLD-*.*
+_temp_*.*
+nuke*.*
+libs/*
