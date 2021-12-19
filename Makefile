@@ -17,9 +17,9 @@ endif
 
 # Target section and Global definitions
 # -----------------------------------------------------------------------------
-.PHONY: all clean test install run deploy down easter
+.PHONY: all clean test install run deploy down
 
-all: clean test install run deploy down easter
+all: clean test install run deploy down
 
 test:
 	poetry run pytest tests -vv --show-capture=all
